@@ -26,6 +26,8 @@ check_prereq() {
     fi
 }
 check_prereq cc
+check_prereq c++
+check_prereq diff
 check_prereq make
 check_prereq wget curl
 check_prereq patch
